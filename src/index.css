@@ -6,11 +6,11 @@
   --color-line: #1F2A37;
   --color-ink: #E5E9F0;
   --color-muted: #8C9AAE;
-  --color-cyan: #22D3EE;
-  --color-violet: #A78BFA;
+  --color-cyan: #059669;
+  --color-violet: #D97706;
   --color-high: #EF4444;
   --color-med: #F59E0B;
-  --color-low: #22C55E;
+  --color-low: #10B981;
 
   --font-heading: 'Space Grotesk', system-ui, sans-serif;
   --font-body: 'IBM Plex Sans', system-ui, sans-serif;
@@ -76,7 +76,7 @@
 
   .border-glow:hover {
     border-color: var(--color-cyan);
-    box-shadow: 0 0 20px rgba(34, 211, 238, 0.1);
+    box-shadow: 0 0 20px rgba(5, 150, 105, 0.1);
   }
 
   .section-padding {

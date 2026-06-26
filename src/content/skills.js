@@ -16,7 +16,7 @@ export const skills = [
     items: ['Python', 'Bash', 'PowerShell', 'SQL', 'JavaScript', 'HTML/CSS'],
   },
   {
-    category: { en: 'HealthTech', es: 'Salud Digital' },
-    items: ['HL7/FHIR', 'Bioinformatics Pipelines', 'Data Governance', 'Clinical Data Security', 'HIPAA Awareness'],
+    category: { en: 'Cloud & Infrastructure', es: 'Nube e Infraestructura' },
+    items: ['AWS Security', 'Azure Security', 'Container Security', 'IAM & Access Control', 'Network Segmentation', 'Zero Trust Architecture'],
   },
 ]

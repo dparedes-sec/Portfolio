@@ -54,14 +54,14 @@ export default function HelixSignature() {
           ctx.beginPath()
           ctx.moveTo(prevX1, prevY)
           ctx.lineTo(x1, y)
-          ctx.strokeStyle = `rgba(34, 211, 238, ${0.15 + depth1 * 0.4})`
+          ctx.strokeStyle = `rgba(5, 150, 105, ${0.15 + depth1 * 0.4})`
           ctx.lineWidth = 1.5
           ctx.stroke()
 
           ctx.beginPath()
           ctx.moveTo(prevX2, prevY)
           ctx.lineTo(x2, y)
-          ctx.strokeStyle = `rgba(167, 139, 250, ${0.15 + depth2 * 0.4})`
+          ctx.strokeStyle = `rgba(217, 119, 6, ${0.15 + depth2 * 0.4})`
           ctx.lineWidth = 1.5
           ctx.stroke()
         }
@@ -78,32 +78,32 @@ export default function HelixSignature() {
           const pulseX = x1 + (x2 - x1) * pulsePos
           ctx.beginPath()
           ctx.arc(pulseX, y, 2, 0, Math.PI * 2)
-          ctx.fillStyle = `rgba(34, 211, 238, ${0.6 + Math.sin(time * 0.05) * 0.3})`
+          ctx.fillStyle = `rgba(5, 150, 105, ${0.6 + Math.sin(time * 0.05) * 0.3})`
           ctx.fill()
         }
 
         const nodeRadius = 2.5 + depth1 * 1.5
         ctx.beginPath()
         ctx.arc(x1, y, nodeRadius, 0, Math.PI * 2)
-        ctx.fillStyle = `rgba(34, 211, 238, ${0.4 + depth1 * 0.5})`
+        ctx.fillStyle = `rgba(5, 150, 105, ${0.4 + depth1 * 0.5})`
         ctx.fill()
 
         const nodeRadius2 = 2.5 + depth2 * 1.5
         ctx.beginPath()
         ctx.arc(x2, y, nodeRadius2, 0, Math.PI * 2)
-        ctx.fillStyle = `rgba(167, 139, 250, ${0.4 + depth2 * 0.5})`
+        ctx.fillStyle = `rgba(217, 119, 6, ${0.4 + depth2 * 0.5})`
         ctx.fill()
 
         if (i % 6 === 0) {
           ctx.beginPath()
           ctx.arc(x1, y, 5, 0, Math.PI * 2)
-          ctx.strokeStyle = `rgba(34, 211, 238, ${0.3 + depth1 * 0.3})`
+          ctx.strokeStyle = `rgba(5, 150, 105, ${0.3 + depth1 * 0.3})`
           ctx.lineWidth = 1
           ctx.stroke()
 
           ctx.beginPath()
           ctx.arc(x2, y, 5, 0, Math.PI * 2)
-          ctx.strokeStyle = `rgba(167, 139, 250, ${0.3 + depth2 * 0.3})`
+          ctx.strokeStyle = `rgba(217, 119, 6, ${0.3 + depth2 * 0.3})`
           ctx.lineWidth = 1
           ctx.stroke()
         }

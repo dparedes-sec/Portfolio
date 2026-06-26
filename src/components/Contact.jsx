@@ -19,7 +19,7 @@ export default function Contact() {
     {
       icon: Link,
       label: t.linkedin,
-      value: 'Daniel Paredes',
+      value: 'Daniel Paredes Ojeda',
       href: s.linkedin,
       external: true,
     },
